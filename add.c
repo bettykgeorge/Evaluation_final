@@ -2,7 +2,8 @@
 
 int main() {
     int num1, num2, sum;
-    
+    num1= 4;
+    num2= 5; 
     printf("Enter the first number: ");
     scanf("%d", &num1);
     
@@ -13,5 +14,5 @@ int main() {
     
     printf("The sum of %d and %d is %d.", num1, num2, sum);
     
-    return 0;
+    
 }
